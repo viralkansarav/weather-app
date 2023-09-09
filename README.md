@@ -62,4 +62,4 @@ Push your changes to your forked repository.
 Create a pull request to merge your changes into the main project.
 
 License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - Veeral Kansara
