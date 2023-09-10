@@ -4,7 +4,7 @@
 
 ## Description
 
-The Weather Application is a React-based web application that allows users to retrieve weather information for any city in the world. It leverages the OpenWeather API to provide accurate and up-to-date weather data. This application is designed to be user-friendly, informative, and capable of handling errors gracefully.
+The Weather Application is a React-based web application that allows users to retrieve weather information for any city in the world. It leverages the weatherapi API to provide accurate and up-to-date weather data. This application is designed to be user-friendly, informative, and capable of handling errors gracefully.
 
 ## Features
 
