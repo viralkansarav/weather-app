@@ -207,3 +207,28 @@ img {
     margin-bottom: 5px;
     margin-top: -26px;
 }
+
+@media (max-width:600px){
+    .searchTerm{
+        width: 30%;
+    }
+}
+@media (max-width:600px){
+    
+    .widget{
+        height: auto;
+        width: 350px;
+        margin-left: 0;
+    }
+    img{
+        height: 20px;
+        margin: 20px;
+    }
+    .tempspan {
+        font-size: 20px;
+    }
+        .widget .date{
+            font-size: 20px;
+            height: 60px;
+        }
+}

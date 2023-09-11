@@ -6,7 +6,6 @@ const Temp = () => {
   const [searchValue, setSearchValue] = useState("Jodhpur");
   const [tempInfo, setTempInfo] = useState({});
   const [error, setError]=useState('')
-
   const getWeatherInfo = async () => {
     try {
       let url = `https://api.weatherapi.com/v1/current.json?key=ff79d6d423d94ddd991104823230509&q=${searchValue}&aqi=no`;
