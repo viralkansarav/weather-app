@@ -10,7 +10,8 @@ const Weathercard = ({
   country,
   uv,
   icon,
-  sunset
+  sunset,
+  region
 }) => {
   const [weatherState, setWeatheState] = React.useState("");
 
@@ -57,7 +58,7 @@ const Weathercard = ({
           <div className="description">
             <div className="weatherCondition">{weathermood}</div>
             <div className="place">
-              {name}, {country}
+              {name}, {region}, {country}
             </div>
           </div>
         </div>

@@ -12,11 +12,11 @@ const Temp = () => {
 
       let res = await fetch(url);
       let data = await res.json();
-      console.log(data)
+      // console.log(data)
       const {humidity, pressure_mb, wind_kph:speed, uv} = data.current;
       const temp = await data.current.temp_c;
       const { text: weathermood, icon } = data.current.condition;
-      const { name ,country} = data.location;
+      const { name ,country,region} = data.location;
 
       const myNewWeatherInfo = {
         temp,
@@ -28,6 +28,7 @@ const Temp = () => {
         country,
         icon,
         uv,
+        region
       };
       setTempInfo(myNewWeatherInfo);
     } catch (error) {
